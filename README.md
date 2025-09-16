@@ -134,7 +134,7 @@ Please enter dataset name: amazon_sales_data
 
 **Expected output:**
 
-- Duplicate records saved as: `sales_data_duplicates.csv`
+- Duplicate records saved as: `sales_data_duplicates.cs`
 - Cleaned data saved as: `sales_data_Clean_data.csv`
 
 ### Final Thoughts
