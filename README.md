@@ -113,3 +113,29 @@ The program was also tested using Jupyter Notebook, where it performed flawlessl
 
 
 **Multiple Formats Supported:** Handles CSV and Excel files seamlessly.
+
+## Usage
+
+1. Run the application using a Python environment.
+2. Input the dataset path and name when prompted.
+3. The application will automatically clean the dataset and save the results.
+
+```bash
+python data_cleaning_master.py
+```
+
+## Example of Execution
+
+```bash
+Welcome to Data Cleaning Master!
+Please enter dataset path: /usr/Dekstop/amazon.csv
+Please enter dataset name: amazon_sales_data
+```
+
+**Expected output:**
+
+- Duplicate records saved as: `sales_data_duplicates.csv`
+- Cleaned data saved as: `sales_data_Clean_data.csv`
+
+### Final Thoughts
+The **Data Cleaning Master** is an efficient tool for data pre-processing. Its ability to handle large datasets, clean data accurately, and save duplicates for further inspection makes it ideal for any data science or data analysis project.
